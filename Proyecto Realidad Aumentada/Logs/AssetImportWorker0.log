@@ -1,0 +1,399 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 16245 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unityprog\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jean/Documents/GitHub/RABACHILLER/Proyecto Realidad Aumentada
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64030
+Successfully changed project path to: C:/Users/Jean/Documents/GitHub/RABACHILLER/Proyecto Realidad Aumentada
+C:/Users/Jean/Documents/GitHub/RABACHILLER/Proyecto Realidad Aumentada
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 33.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unityprog/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jean/Documents/GitHub/RABACHILLER/Proyecto Realidad Aumentada/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e98)
+    Vendor:   
+    VRAM:     8122 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unityprog/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unityprog/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unityprog/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unityprog/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001143 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000712 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.9 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 1.367900 ms (FindLiveObjects: 0.099200 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.157100 ms  DeleteObjects: 0.083800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/CANVAS/IMAGENES/nodo1.png
+  artifactKey: Guid(5228d86490e5eb541b9b8a9db1ca2508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/nodo1.png using Guid(5228d86490e5eb541b9b8a9db1ca2508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b0ab67988f178449e8e8398eefbab9') in 0.062389 seconds
+  Import took 0.064002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.567431 seconds.
+  path: Assets/CANVAS/IMAGENES/nodo1.png
+  artifactKey: Guid(5228d86490e5eb541b9b8a9db1ca2508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/nodo1.png using Guid(5228d86490e5eb541b9b8a9db1ca2508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcae64703e4d07d49823df4a708051c') in 0.038472 seconds
+  Import took 0.040042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.446079 seconds.
+  path: Assets/CANVAS/IMAGENES/nodo2.png
+  artifactKey: Guid(4ac3b79a29478bc418819cf164253484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/nodo2.png using Guid(4ac3b79a29478bc418819cf164253484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c80ab3ef9e493bab365e0bfe3d85c0') in 0.014459 seconds
+  Import took 0.016177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.215780 seconds.
+  path: Assets/CANVAS/IMAGENES/nodo2.png
+  artifactKey: Guid(4ac3b79a29478bc418819cf164253484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/nodo2.png using Guid(4ac3b79a29478bc418819cf164253484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c231923091cb8efd2d2d7ad83fa9cca') in 0.013780 seconds
+  Import took 0.016276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.730264 seconds.
+  path: Assets/CANVAS/IMAGENES/nodo3.png
+  artifactKey: Guid(f4561a1e7e89adf4faf0e6c48c35e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/nodo3.png using Guid(f4561a1e7e89adf4faf0e6c48c35e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34e361ffca0d12311b3ff0fea7b42b7') in 0.011436 seconds
+  Import took 0.013260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/CANVAS/IMAGENES/nodo3.png
+  artifactKey: Guid(f4561a1e7e89adf4faf0e6c48c35e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/nodo3.png using Guid(f4561a1e7e89adf4faf0e6c48c35e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34e361ffca0d12311b3ff0fea7b42b7') in 0.009097 seconds
+  Import took 0.010997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.736326 seconds.
+  path: Assets/CANVAS/IMAGENES/nodo3.png
+  artifactKey: Guid(f4561a1e7e89adf4faf0e6c48c35e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/nodo3.png using Guid(f4561a1e7e89adf4faf0e6c48c35e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e915db0545ec03ab992b84f95559bf') in 0.013244 seconds
+  Import took 0.015243 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000709 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.4 MB.
+System memory in use after: 62.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1608.
+Total: 3.364800 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.848900 ms  DeleteObjects: 0.055000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 532.856336 seconds.
+  path: Assets/CANVAS/IMAGENES/MALLA1.png
+  artifactKey: Guid(7b64013ce4057bc4496d323a59032e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/MALLA1.png using Guid(7b64013ce4057bc4496d323a59032e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd00358082c044a00dfcebad91aa61b') in 0.030845 seconds
+  Import took 0.032472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.572107 seconds.
+  path: Assets/CANVAS/IMAGENES/MALLA1.png
+  artifactKey: Guid(7b64013ce4057bc4496d323a59032e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/MALLA1.png using Guid(7b64013ce4057bc4496d323a59032e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa62a14b87c82246933999b52e3f8dd7') in 0.025140 seconds
+  Import took 0.027023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.582696 seconds.
+  path: Assets/CANVAS/IMAGENES/MALLA2.png
+  artifactKey: Guid(9c551c81f5d918a40b1e16f2b9e4f98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/MALLA2.png using Guid(9c551c81f5d918a40b1e16f2b9e4f98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33112da9e094a82ba362da82e54ecb2') in 0.012986 seconds
+  Import took 0.014587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.716900 seconds.
+  path: Assets/CANVAS/IMAGENES/MALLA2.png
+  artifactKey: Guid(9c551c81f5d918a40b1e16f2b9e4f98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/MALLA2.png using Guid(9c551c81f5d918a40b1e16f2b9e4f98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3628ebfa627c1a033208547f6f8bbac1') in 0.013544 seconds
+  Import took 0.015321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1723.311833 seconds.
+  path: Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.21.45 PM.jpeg
+  artifactKey: Guid(838f4811b34ad954aba6fb64b3ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.21.45 PM.jpeg using Guid(838f4811b34ad954aba6fb64b3ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7de0cb8905a5d15aaa9e63553b3bfda') in 0.016531 seconds
+  Import took 0.018549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.701778 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO1.jpeg
+  artifactKey: Guid(838f4811b34ad954aba6fb64b3ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO1.jpeg using Guid(838f4811b34ad954aba6fb64b3ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9277747e91509cb9e95c4b2f2d892344') in 0.008969 seconds
+  Import took 0.011051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.177038 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO1.jpeg
+  artifactKey: Guid(838f4811b34ad954aba6fb64b3ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO1.jpeg using Guid(838f4811b34ad954aba6fb64b3ff0dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccecac48e57d2646907a831517daf5c9') in 0.017840 seconds
+  Import took 0.019650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 572.107038 seconds.
+  path: Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.28.07 PM.jpeg
+  artifactKey: Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.28.07 PM.jpeg using Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a97e268c8c9fd9de219d7b18cc1dc4') in 0.012642 seconds
+  Import took 0.014852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.976478 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO2.jpeg
+  artifactKey: Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO2.jpeg using Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e8ca7f97af5855dd063d2c08c4b3b7') in 0.010359 seconds
+  Import took 0.012798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002717 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO2.jpeg
+  artifactKey: Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO2.jpeg using Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e8ca7f97af5855dd063d2c08c4b3b7') in 0.020575 seconds
+  Import took 0.022991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.402984 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO2.jpeg
+  artifactKey: Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO2.jpeg using Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281bf7b5e3ccff41336b95cec998de68') in 0.013170 seconds
+  Import took 0.015382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003453 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO2.jpeg
+  artifactKey: Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO2.jpeg using Guid(03e92e5324ec62443983c38d2a6889d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281bf7b5e3ccff41336b95cec998de68') in 0.029781 seconds
+  Import took 0.031501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 513.604567 seconds.
+  path: Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.30.37 PM.jpeg
+  artifactKey: Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.30.37 PM.jpeg using Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3265000d0c693a436e7ce8accc27b896') in 0.013644 seconds
+  Import took 0.015897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.603495 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO3.jpeg
+  artifactKey: Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO3.jpeg using Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae7844bdc66418d7438151a86d2439') in 0.009146 seconds
+  Import took 0.011821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.985440 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO3.jpeg
+  artifactKey: Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO3.jpeg using Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0958fbd646ad52d6c2f92e32117c27a9') in 0.013443 seconds
+  Import took 0.015330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002177 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO3.jpeg
+  artifactKey: Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO3.jpeg using Guid(f3708b5112637d64c917ea3b5d3fca5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0958fbd646ad52d6c2f92e32117c27a9') in 0.015720 seconds
+  Import took 0.017990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.120860 seconds.
+  path: Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.35.44 PM.jpeg
+  artifactKey: Guid(81bf510ca3cb49540b24346c474855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.35.44 PM.jpeg using Guid(81bf510ca3cb49540b24346c474855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b480c089077a2c39cae5c6cd62dedf53') in 0.014514 seconds
+  Import took 0.016349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.996932 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO4.jpeg
+  artifactKey: Guid(81bf510ca3cb49540b24346c474855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO4.jpeg using Guid(81bf510ca3cb49540b24346c474855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12375d1e6b6be5831e5d23fea21f737d') in 0.012860 seconds
+  Import took 0.014727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.022096 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO4.jpeg
+  artifactKey: Guid(81bf510ca3cb49540b24346c474855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO4.jpeg using Guid(81bf510ca3cb49540b24346c474855e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff7a879421834c0c0a6b4b9d822c0e8') in 0.019603 seconds
+  Import took 0.021303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.981640 seconds.
+  path: Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.38.39 PM.jpeg
+  artifactKey: Guid(111c505cb83ce614bb0dc485aaba68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/WhatsApp Image 2021-01-09 at 5.38.39 PM.jpeg using Guid(111c505cb83ce614bb0dc485aaba68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f33278616375c792577adb3c358ce67') in 0.013399 seconds
+  Import took 0.015341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.149936 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO5.jpeg
+  artifactKey: Guid(111c505cb83ce614bb0dc485aaba68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO5.jpeg using Guid(111c505cb83ce614bb0dc485aaba68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4489861ed57239e3af1761d601fcf5dc') in 0.010461 seconds
+  Import took 0.012188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.377262 seconds.
+  path: Assets/CANVAS/IMAGENES/RESUELTO5.jpeg
+  artifactKey: Guid(111c505cb83ce614bb0dc485aaba68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CANVAS/IMAGENES/RESUELTO5.jpeg using Guid(111c505cb83ce614bb0dc485aaba68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8bdf4356a58c634ceb86b6c0089597') in 0.018209 seconds
+  Import took 0.020042 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.7 MB.
+System memory in use after: 62.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 1.654900 ms (FindLiveObjects: 0.102300 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.470200 ms  DeleteObjects: 0.054100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 62.9 MB.
+System memory in use after: 63.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 3.264000 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.127800 ms MarkObjects: 2.714500 ms  DeleteObjects: 0.070200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.605 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.1 MB.
+System memory in use after: 63.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 3.545100 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.141800 ms MarkObjects: 2.970200 ms  DeleteObjects: 0.062900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
