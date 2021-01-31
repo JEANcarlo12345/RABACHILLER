@@ -7559,6 +7559,7 @@ GameObject:
   - component: {fileID: 446073256}
   - component: {fileID: 446073255}
   - component: {fileID: 446073254}
+  - component: {fileID: 446073257}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -7629,7 +7630,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 446073255}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 446073257}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &446073255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7668,6 +7681,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446073252}
   m_CullTransparentMesh: 1
+--- !u!114 &446073257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446073252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a4a7f6238b485499bdf88dcf07e972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  quizManager: {fileID: 1708927790}
+  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &447591240
 GameObject:
   m_ObjectHideFlags: 0
@@ -8103,8 +8131,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Encontrar la resistencia equivalente entre los terminales a y b del circuito
-    de la figura.
+  m_Text: TEXTO
 --- !u!222 &473660431
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26068,6 +26095,7 @@ GameObject:
   - component: {fileID: 1652993021}
   - component: {fileID: 1652993020}
   - component: {fileID: 1652993019}
+  - component: {fileID: 1652993022}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -26138,7 +26166,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1652993020}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 446073257}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1652993020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26177,6 +26217,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652993017}
   m_CullTransparentMesh: 1
+--- !u!114 &1652993022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652993017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a4a7f6238b485499bdf88dcf07e972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  quizManager: {fileID: 1708927790}
+  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1655859530
 GameObject:
   m_ObjectHideFlags: 0
@@ -27080,6 +27135,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707762518}
   m_CullTransparentMesh: 1
+--- !u!1 &1708927789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1708927793}
+  - component: {fileID: 1708927792}
+  - component: {fileID: 1708927791}
+  - component: {fileID: 1708927790}
+  m_Layer: 0
+  m_Name: Programabilidad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1708927790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708927789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2666dc90055444043b892f4beabe1e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  options:
+  - {fileID: 1837080943}
+  - {fileID: 446073252}
+  - {fileID: 2055417072}
+  - {fileID: 1652993017}
+  currentQuestion: 0
+  Quizpanel: {fileID: 0}
+  GoPanel: {fileID: 0}
+  QuestionTxt: {fileID: 473660430}
+  ScoreTxt: {fileID: 0}
+  score: 0
+--- !u!114 &1708927791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708927789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91f79bb0798eac4d89811329329d2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Question: 
+  Answers: []
+  CorrectAnswer: 0
+--- !u!114 &1708927792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708927789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a4a7f6238b485499bdf88dcf07e972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  quizManager: {fileID: 0}
+  startColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!4 &1708927793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708927789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 586.95197, y: 331.03732, z: -653.30817}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1710119733
 GameObject:
   m_ObjectHideFlags: 0
@@ -29180,6 +29327,7 @@ GameObject:
   - component: {fileID: 1837080947}
   - component: {fileID: 1837080946}
   - component: {fileID: 1837080945}
+  - component: {fileID: 1837080948}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -29250,7 +29398,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1837080946}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 446073257}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1837080946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29289,6 +29449,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837080943}
   m_CullTransparentMesh: 1
+--- !u!114 &1837080948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837080943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a4a7f6238b485499bdf88dcf07e972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  quizManager: {fileID: 1708927790}
+  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1838517427
 GameObject:
   m_ObjectHideFlags: 0
@@ -32215,6 +32390,7 @@ GameObject:
   - component: {fileID: 2055417076}
   - component: {fileID: 2055417075}
   - component: {fileID: 2055417074}
+  - component: {fileID: 2055417077}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -32285,7 +32461,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2055417075}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 446073257}
+        m_TargetAssemblyTypeName: AnswerScript, Assembly-CSharp
+        m_MethodName: Answer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2055417075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32324,6 +32512,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055417072}
   m_CullTransparentMesh: 1
+--- !u!114 &2055417077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055417072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a4a7f6238b485499bdf88dcf07e972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  quizManager: {fileID: 1708927790}
+  startColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &2057223288
 GameObject:
   m_ObjectHideFlags: 0
